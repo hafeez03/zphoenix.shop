@@ -287,3 +287,54 @@ footer:not(.footer-modern) .copyright {
   border-top: 1px solid rgba(255,255,255,.2);
   padding-top: 18px;
 }
+
+
+/* Final footer contrast fixes for both modern and legacy footer layouts */
+#footer .footer-newsletter h4,
+#footer .footer-links h4 {
+  color: #ffffff !important;
+  font-weight: 900 !important;
+}
+#footer .footer-newsletter p,
+#footer .footer-links li,
+#footer .footer-links li a,
+#footer .footer-links > a,
+#footer .footer-legal,
+#footer .footer-contact,
+#footer .footer-contact a {
+  color: #f1f5fb !important;
+  font-weight: 800 !important;
+  opacity: 1 !important;
+}
+#footer .footer-newsletter p {
+  font-size: 13px !important;
+  line-height: 1.7 !important;
+}
+#footer .footer-links li a,
+#footer .footer-links > a,
+#footer .footer-legal {
+  font-size: 12px !important;
+}
+#footer .footer-legal {
+  display: inline-block;
+  margin: 7px 16px 0 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+#footer .copyright,
+#footer .copyright p,
+#footer .copyright p span,
+#footer .copyright p strong,
+#footer .footer-bottom,
+#footer .footer-bottom span {
+  color: #ffffff !important;
+  font-size: 12px !important;
+  font-weight: 900 !important;
+  opacity: 1 !important;
+}
+#footer .footer-bottom {
+  border-top-color: rgba(255,255,255,.28) !important;
+}
+#footer .footer-newsletter .form-control {
+  min-height: 45px;
+}
