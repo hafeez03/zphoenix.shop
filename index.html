@@ -211,6 +211,27 @@
 
   <footer id="footer" class="footer footer-modern">
     <div class="container">
+      <div class="footer-newsletter mb-4" data-aos="fade-up">
+        <div class="row gy-4 align-items-center">
+          <div class="col-lg-5">
+            <h4>Stay Updated</h4>
+            <p>Subscribe to our newsletter to receive updates on new products.</p>
+            <p>You can unsubscribe at any time by using the unsubscribe link in the email.</p>
+          </div>
+          <div class="col-lg-7">
+            <form id="subscribe-form" action="#" data-endpoint="https://formsubmit.co/ajax/info@zphoenix.shop" method="post" class="footer-subscribe-form" novalidate>
+              <input type="hidden" name="_subject" value="New Newsletter Subscription - ESOLTECH">
+              <input type="hidden" name="_captcha" value="false">
+              <div class="footer-subscribe-row">
+                <input type="email" name="email" class="form-control" placeholder="E.g. your@email.com" required>
+                <button type="submit" class="btn btn-danger">Subscribe</button>
+              </div>
+              <div class="subscribe-form-status small mt-2" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+
       <div class="row gy-5">
         <div class="col-lg-4 col-md-6">
           <a href="index.html" class="footer-brand"><span class="brand-mark"><i class="bi bi-cpu"></i></span><span><strong>ESOLTECH</strong><small>COMPLETE IT SOLUTIONS</small></span></a>
