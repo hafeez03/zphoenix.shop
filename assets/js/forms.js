@@ -2,7 +2,7 @@
 (function () {
   'use strict';
 
-  const FORM_ENDPOINT = 'https://formsubmit.co/ajax/hafeez_03@hotmail.com';
+  const FORM_ENDPOINT = 'https://formsubmit.co/ajax/info@zphoenix.shop';
 
   function showStatus(form, selector, message, ok) {
     const el = form.querySelector(selector);
